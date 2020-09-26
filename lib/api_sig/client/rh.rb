@@ -7,7 +7,7 @@ class Servidor
   end
 
   def self.find_by_id_pessoa(id_pessoa)
-    json_request("#{RH_ID_SERVIDOR_URL}/#{id_pessoa}")
+    json_request("#{RH_ID_PESSOA_URL}/#{id_pessoa}")
   end
 end
 
