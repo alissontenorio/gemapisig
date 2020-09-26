@@ -14,8 +14,15 @@ class Pessoa
   end
 end
 
+
+# 1 - Presencial
+# 2 - Distância
 class ModalidadeEducacao
   def self.find_by_id_modalidade_educacao(id_modalidade_educacao)
     json_request("#{MODALIDADE_EDUCACAO_ID_MODALIDADE_EDUCACAO_URL}/#{id_modalidade_educacao}")
+  end
+
+  def self.get_all_modalidades
+    json_request_get_all("#{MODALIDADE_EDUCACAO_GET_ALL_URL}")
   end
 end
