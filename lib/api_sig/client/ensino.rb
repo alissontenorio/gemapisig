@@ -1,6 +1,3 @@
-require "api_sig/client/global_constants"
-require "api_sig/client/json_request"
-
 class Turma < Base
   #/apisig/turma/id_turma/:id_turma
 end
