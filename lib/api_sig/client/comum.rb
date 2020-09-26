@@ -3,7 +3,6 @@ require "api_sig/client/json_request"
 
 class Pessoa
   private_class_method :new   
-
   def self.find_by_id_pessoa(id_pessoa)
     json_request("#{PESSOA_ID_PESSOA_URL}/#{id_pessoa}")
   end
@@ -18,11 +17,12 @@ end
 # 1 - Presencial
 # 2 - Distância
 class ModalidadeEducacao
+  private_class_method :new   
   def self.find_by_id_modalidade_educacao(id_modalidade_educacao)
     json_request("#{MODALIDADE_EDUCACAO_ID_MODALIDADE_EDUCACAO_URL}/#{id_modalidade_educacao}")
   end
 
   def self.all
-    json_request_get_all("#{MODALIDADE_EDUCACAO_GET_ALL_URL}")
+    json_request("#{MODALIDADE_EDUCACAO_GET_ALL_URL}")
   end
 end
