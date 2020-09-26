@@ -11,5 +11,5 @@ class Servidor
   end
 end
 
-/apisig/servidor/id_servidor/:id_servidor
-/apisig/servidor/id_pessoa/:id_pessoa
+#/apisig/servidor/id_servidor/:id_servidor
+#/apisig/servidor/id_pessoa/:id_pessoa
