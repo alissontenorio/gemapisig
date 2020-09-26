@@ -12,8 +12,7 @@ class Pessoa
   end
 
   def self.find_by_cpf(cpf)
-    puts cpf
-    puts cpf.to_s
+    return "CPF precisa ser uma string" if cpf.class != String
     begin
       JSON.parse(RestClient.get("#{API_URL}/pessoa/cpf/#{cpf.to_s}", {accept: :json}).body).first
     rescue => ex
