@@ -13,7 +13,7 @@ class Pessoa
 
   def self.find_by_cpf(cpf)
     begin
-      JSON.parse(RestClient.get("#{API_URL}/pessoa/cpf/#{cpf}", {accept: :json}).body).first
+      JSON.parse(RestClient.get("#{API_URL}/pessoa/cpf/#{cpf.to_s}", {accept: :json}).body).first
     rescue => ex
       puts ex.response
     end
