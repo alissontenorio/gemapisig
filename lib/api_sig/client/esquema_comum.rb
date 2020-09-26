@@ -2,7 +2,7 @@ require "api_sig/client/global_constants"
 
 class Pessoa  
   def self.find_by_id_pessoa(id)
-    byebug
+    #byebug
     begin
       JSON.parse(RestClient.get("#{API_URL}/pessoa/id_pessoa/#{id}", {accept: :json}).body).first
     rescue => ex
