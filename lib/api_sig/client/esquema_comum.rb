@@ -17,7 +17,7 @@ class Pessoa
 
   def self.find_by_cpf(cpf)
     return "CPF precisa ser uma string" if cpf.class != String
-    self.json_request(("#{PESSOA_CPF_URL}/#{cpf}")
+    self.json_request("#{PESSOA_CPF_URL}/#{cpf}")
   end
 
   #/apisig/modalidade_educacao/id_modalidade_educacao/:id_modalidade_educacao
