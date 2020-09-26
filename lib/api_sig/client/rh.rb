@@ -1,7 +1,7 @@
 require "api_sig/client/global_constants"
 require "api_sig/client/json_request"
 
-class Servidor
+class Servidor < Base
   def self.find_by_id_servidor(id_servidor)
     json_request("#{RH_ID_SERVIDOR_URL}/#{id_servidor}")
   end
