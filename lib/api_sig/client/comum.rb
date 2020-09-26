@@ -22,7 +22,7 @@ class ModalidadeEducacao
     json_request("#{MODALIDADE_EDUCACAO_ID_MODALIDADE_EDUCACAO_URL}/#{id_modalidade_educacao}")
   end
 
-  def self.get_all_modalidades
+  def self.all
     json_request_get_all("#{MODALIDADE_EDUCACAO_GET_ALL_URL}")
   end
 end
