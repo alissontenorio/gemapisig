@@ -10,9 +10,3 @@ class TipoCursoStricto < Base
     #json_request("#{STRICTO_SENSU_TIPO_CURSO_STRICTO_GET_ALL_URL}")
   end
 end
-
-class DiscenteStricto < Base
-  def self.find_by_id_discente(id_discente)
-    #json_request("#{STRICTO_SENSU_DISCENTE_STRICTO_ID_DISCENTE_URL}/#{id_discente}")
-  end
-end
