@@ -9,7 +9,10 @@
 #require "api_sig/client/tecnico"
 
 #Dir["#{File.dirname(__FILE__)}/api_sig/**/*.rb"].each {|file| require file }
-Dir[File.join(__dir__, '/api_sig/client', '*.rb')].each { |file| require file }
+byebug
+Dir[File.join(__dir__, '/api_sig/client', '*.rb')].each { |file| require file 
+puts file
+}
 #Dir["/path/to/directory/*.rb"].each {|file| require file }
 
 class Error < StandardError; end
