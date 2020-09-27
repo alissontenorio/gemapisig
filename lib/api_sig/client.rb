@@ -20,18 +20,16 @@ class Error < StandardError; end
 #require "api_sig/client/version"
 #require "api_sig/client/base"
 
-#Dir[__dir__+ "/client/*.rb"].each { |file|
-#  require file
+Dir[__dir__+ "/client/*.rb"].each { |file|
+  require file
 #  puts "#{file}"
 #  puts Dir.pwd
-#}
+}
 
-#Dir[__dir__+ "/client/**/*.rb"].each { |file|
-#  require file
+Dir[__dir__+ "/client/**/*.rb"].each { |file|
+  require file
 #  puts "#{file}"
 #  puts Dir.pwd
-#}
+}
 
-
-require "api_sig/client/global_constants"
-puts BASE_API_URL
+#puts BASE_API_URL
