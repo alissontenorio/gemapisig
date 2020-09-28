@@ -1,3 +1,5 @@
-class SituacaoMatricula < Base
-  # /apisig/situacao_matricula/id_situacao_matricula/:id_situacao_matricula
+module Sig
+  class SituacaoMatricula < Base
+    # /apisig/situacao_matricula/id_situacao_matricula/:id_situacao_matricula
+  end
 end
