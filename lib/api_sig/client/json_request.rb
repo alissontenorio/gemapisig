@@ -6,4 +6,4 @@ module Sig
       puts ex.response
     end
   end
-end 
+end
