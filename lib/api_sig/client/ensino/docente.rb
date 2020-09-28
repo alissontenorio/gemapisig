@@ -1,4 +1,4 @@
-module Sigaa
+module Sig
   class Docente < Base
     # /apisig/docente/id_docente/:id_docente
     # /apisig/docente/id_docente_turma/:id_docente_turma

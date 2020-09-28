@@ -1,4 +1,4 @@
-module Sigaa
+module Sig
   class DocenteExterno < Base
     # /apisig/docente_externo/id_docente_externo/:id_docente_externo
     # /apisig/docente_externo/id_pessoa/:id_pessoa

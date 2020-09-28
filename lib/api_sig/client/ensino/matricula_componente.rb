@@ -1,4 +1,4 @@
-module Sigaa
+module Sig
   class MatriculaComponente < Base
     # /apisig/matricula_componente/id_situacao_matricula/:id_situacao_matricula
     # /apisig/matricula_componente/id_discente/:id_discente
