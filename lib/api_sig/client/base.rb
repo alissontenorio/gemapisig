@@ -4,8 +4,8 @@ require "api_sig/client/json_request"
 module Sig
   class Base
     private_class_method :new
-    
-    def json_request(url)
+
+    def self.json_request(url)
       begin
         JSON.parse(RestClient.get(url, {accept: :json}).body)
       rescue => ex
