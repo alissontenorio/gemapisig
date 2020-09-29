@@ -25,8 +25,8 @@ module Sig
   ENSINO_DOCENTE_EXTERNO_ID_PESSOA_URL = "#{BASE_API_URL}/docente_externo/id_pessoa"
   ENSINO_DOCENTE_EXTERNO_ID_SERVIDOR_URL = "#{BASE_API_URL}/docente_externo/id_servidor"
   ENSINO_DOCENTE_EXTERNO_MATRICULA_URL = "#{BASE_API_URL}/docente_externo/matricula"
-  ENSINO_DOCENTE_TURMA_ID_DOCENTE_URL = "#{BASE_API_URL}/docente_turma/id_docente"
-  ENSINO_DOCENTE_TURMA_ID_DOCENTE_TURMA_URL = "#{BASE_API_URL}/docente_turma/id_docente_turma"
-  ENSINO_DOCENTE_TURMA_ID_DOCENTE_EXTERNO_URL = "#{BASE_API_URL}/docente_turma/id_docente_externo"
-  ENSINO_DOCENTE_TURMA_ID_TURMA_URL = "#{BASE_API_URL}/docente_turma/id_turma"
+  ENSINO_DOCENTE_TURMA_ID_DOCENTE_URL = "#{BASE_API_URL}/ensino/docente_turma/id_docente"
+  ENSINO_DOCENTE_TURMA_ID_DOCENTE_TURMA_URL = "#{BASE_API_URL}/ensino/docente_turma/id_docente_turma"
+  ENSINO_DOCENTE_TURMA_ID_DOCENTE_EXTERNO_URL = "#{BASE_API_URL}/ensino/docente_turma/id_docente_externo"
+  ENSINO_DOCENTE_TURMA_ID_TURMA_URL = "#{BASE_API_URL}/ensino/docente_turma/id_turma"
 end
