@@ -9,5 +9,13 @@ module Sig
     def self.find_by_id_pessoa(id_pessoa)
       json_request("#{ENSINO_DOCENTE_EXTERNO_ID_PESSOA_URL}/#{id_pessoa}")
     end
+
+    def self.find_by_id_servidor(id_servidor)
+      json_request("#{ENSINO_DOCENTE_EXTERNO_ID_SERVIDOR_URL}/#{id_servidor}")
+    end
+    
+    def self.find_by_matricula(matricula)
+      json_request("#{ENSINO_DOCENTE_EXTERNO_MATRICULA_URL}/#{matricula}")
+    end
   end
 end
