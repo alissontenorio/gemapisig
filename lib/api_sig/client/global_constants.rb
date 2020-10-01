@@ -9,12 +9,12 @@ module Sig
   RH_SERVIDOR_ID_SERVIDOR_URL = "#{BASE_API_URL}/rh/servidor/id_servidor"
   RH_SERVIDOR_ID_PESSOA_URL = "#{BASE_API_URL}/rh/servidor/id_pessoa"
 
-  PUBLIC_CURSO_ID_CURSO_URL = "#{BASE_API_URL}/curso/id_curso"
-  PUBLIC_CURSO_GET_ALL_URL = "#{BASE_API_URL}/curso"
-  PUBLIC_DISCENTE_ID_DISCENTE_URL = "#{BASE_API_URL}/discente/id_discente"
-  PUBLIC_DISCENTE_MATRICULA_URL = "#{BASE_API_URL}/discente/matricula"
-  PUBLIC_DISCENTE_ID_PESSOA_URL = "#{BASE_API_URL}/discente/id_pessoa"
-  PUBLIC_DISCENTE_ID_CURSO_URL = "#{BASE_API_URL}/discente/id_curso"
+  PUBLIC_CURSO_ID_CURSO_URL = "#{BASE_API_URL}/public/curso/id_curso"
+  PUBLIC_CURSO_GET_ALL_URL = "#{BASE_API_URL}/public/curso"
+  PUBLIC_DISCENTE_ID_DISCENTE_URL = "#{BASE_API_URL}/public/discente/id_discente"
+  PUBLIC_DISCENTE_MATRICULA_URL = "#{BASE_API_URL}/public/discente/matricula"
+  PUBLIC_DISCENTE_ID_PESSOA_URL = "#{BASE_API_URL}/public/discente/id_pessoa"
+  PUBLIC_DISCENTE_ID_CURSO_URL = "#{BASE_API_URL}/public/discente/id_curso"
 
   ENSINO_COMPONENTE_CURRICULAR_DETALHES_ID_COMPONENTE_DETALHES_URL = "#{BASE_API_URL}/ensino/componente_curricular_detalhes/id_componente_detalhes"
   ENSINO_COMPONENTE_CURRICULAR_DETALHES_ID_COMPONENTE_URL = "#{BASE_API_URL}/ensino/componente_curricular_detalhes/id_componente"
