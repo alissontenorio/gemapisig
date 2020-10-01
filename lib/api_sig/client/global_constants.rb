@@ -25,12 +25,18 @@ module Sig
   ENSINO_DOCENTE_EXTERNO_ID_PESSOA_URL = "#{BASE_API_URL}/ensino/docente_externo/id_pessoa"
   ENSINO_DOCENTE_EXTERNO_ID_SERVIDOR_URL = "#{BASE_API_URL}/ensino/docente_externo/id_servidor"
   ENSINO_DOCENTE_EXTERNO_MATRICULA_URL = "#{BASE_API_URL}/ensino/docente_externo/matricula"
-
   ENSINO_DOCENTE_TURMA_ID_DOCENTE_URL = "#{BASE_API_URL}/ensino/docente_turma/id_docente"
   ENSINO_DOCENTE_TURMA_ID_DOCENTE_TURMA_URL = "#{BASE_API_URL}/ensino/docente_turma/id_docente_turma"
   ENSINO_DOCENTE_TURMA_ID_DOCENTE_EXTERNO_URL = "#{BASE_API_URL}/ensino/docente_turma/id_docente_externo"
   ENSINO_DOCENTE_TURMA_ID_TURMA_URL = "#{BASE_API_URL}/ensino/docente_turma/id_turma"
 
+  ENSINO_MATRICULA_COMPONENTE_ID_SITUACAO_MATRICULA_URL = "#{BASE_API_URL}/ensino/matricula_componente/id_situacao_matricula"
+  ENSINO_MATRICULA_COMPONENTE_ID_DISCENTE_URL = "#{BASE_API_URL}/ensino/matricula_componente/id_discente"
+  ENSINO_MATRICULA_COMPONENTE_ID_MATRICULA_COMPONENTE_URL = "#{BASE_API_URL}/ensino/matricula_componente/id_matricula_componente"
+  ENSINO_MATRICULA_COMPONENTE_ID_TURMA_URL = "#{BASE_API_URL}/ensino/matricula_componente/id_turma"
+  ENSINO_MATRICULA_COMPONENTE_ID_COMPONENTE_CURRICULAR_URL = "#{BASE_API_URL}/ensino/matricula_componente/id_componente_curricular"
+
+  
   ENSINO_SITUACAO_TURMA_ID_SITUACAO_TURMA_URL = "#{BASE_API_URL}/ensino/situacao_turma/id_situacao_turma"
   ENSINO_SITUACAO_TURMA_GET_ALL_URL = "#{BASE_API_URL}/ensino/situacao_turma"
 end
