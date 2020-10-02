@@ -41,8 +41,11 @@ module Sig
   ENSINO_SITUACAO_TURMA_ID_SITUACAO_TURMA_URL = "#{BASE_API_URL}/ensino/situacao_turma/id_situacao_turma"
   ENSINO_SITUACAO_TURMA_GET_ALL_URL = "#{BASE_API_URL}/ensino/situacao_turma"
   ENSINO_TIPO_COMPONENTE_CURRICULAR_ID_TIPO_DISCIPLINA_URL = "#{BASE_API_URL}/ensino/tipo_componente_curricular/id_tipo_disciplina"
-  ENSINO_TIPO_COMPONENTE_CURRICULAR_GET_ALL_URL = "#{BASE_API_URL}/ensino/tipo_componente_curricular"
-
+  ENSINO_TIPO_COMPONENTE_CURRICULAR_GET_ALL_URL = "#{BASE_API_URL}/ensino/tipo_componente_curricular"  
+  ENSINO_TIPO_OFERTA_CURSO_ID_TIPO_OFERTA_CURSO_URL = "#{BASE_API_URL}/ensino/tipo_oferta_curso/id_tipo_oferta_curso"
+  ENSINO_TIPO_OFERTA_CURSO_GET_ALL_URL = "#{BASE_API_URL}/ensino/tipo_oferta_curso"
+  ENSINO_TIPO_OFERTA_DISCIPLINA_ID_TIPO_OFERTA_DISCIPLINA_URL = "#{BASE_API_URL}/ensino/tipo_oferta_disciplina/id_tipo_oferta_disciplina"
+  ENSINO_TIPO_OFERTA_DISCIPLINA_GET_ALL_URL = "#{BASE_API_URL}/ensino/tipo_oferta_disciplina"
   ENSINO_TURMA_ID_TURMA_URL = "#{BASE_API_URL}/ensino/turma/id_turma"
   ENSINO_TURMA_ID_CURSO_URL = "#{BASE_API_URL}/ensino/turma/id_curso"
   ENSINO_TURMA_ID_DISCIPLINA_URL = "#{BASE_API_URL}/ensino/turma/id_disciplina"
