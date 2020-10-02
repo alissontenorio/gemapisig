@@ -67,8 +67,8 @@ module Sig
   TECNICO_TURMA_ENTRADA_TECNICO_ID_TURMA_ENTRADA_URL = "#{BASE_API_URL}/tecnico/turma_entrada_tecnico/id_turma_entrada"
   TECNICO_TURMA_ENTRADA_TECNICO_GET_ALL_URL = "#{BASE_API_URL}/tecnico/turma_entrada_tecnico"
 
-  LATO_SENSU_COMPONENTE_CURSO_LATO_ID_COMPONENTE_CURSO_LATO_URL = "#{BASE_API_URL}/componente_curso_lato/id_componente_curso_lato"
-  LATO_SENSU_COMPONENTE_CURSO_LATO_ID_COMPONENTE_CURRICULAR_LATO_URL = "#{BASE_API_URL}/componente_curso_lato/id_componente_curricular"
-  LATO_SENSU_COMPONENTE_CURSO_LATO_ID_CURSO_LATO_URL = "#{BASE_API_URL}/componente_curso_lato/id_curso_lato"
-  LATO_SENSU_COMPONENTE_CURSO_LATO_GET_ALL_URL = "#{BASE_API_URL}/componente_curso_lato"
+  LATO_SENSU_COMPONENTE_CURSO_LATO_ID_COMPONENTE_CURSO_LATO_URL = "#{BASE_API_URL}/lato_sensu/componente_curso_lato/id_componente_curso_lato"
+  LATO_SENSU_COMPONENTE_CURSO_LATO_ID_COMPONENTE_CURRICULAR_LATO_URL = "#{BASE_API_URL}/lato_sensu/componente_curso_lato/id_componente_curricular"
+  LATO_SENSU_COMPONENTE_CURSO_LATO_ID_CURSO_LATO_URL = "#{BASE_API_URL}/lato_sensu/componente_curso_lato/id_curso_lato"
+  LATO_SENSU_COMPONENTE_CURSO_LATO_GET_ALL_URL = "#{BASE_API_URL}/lato_sensu/componente_curso_lato"
 end
