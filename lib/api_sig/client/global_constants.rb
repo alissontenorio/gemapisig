@@ -53,4 +53,8 @@ module Sig
   STRICTO_SENSU_DISCENTE_STRICTO_ID_DISCENTE_URL = "#{BASE_API_URL}/stricto_sensu/discente_stricto/id_discente"
   STRICTO_SENSU_TIPO_CURSO_STRICTO_ID_TIPO_CURSO_STRICTO_URL = "#{BASE_API_URL}/stricto_sensu/tipo_curso_stricto/id_tipo_curso_stricto"
   STRICTO_SENSU_TIPO_CURSO_STRICTO_GET_ALL_URL = "#{BASE_API_URL}/stricto_sensu/tipo_curso_stricto"
+
+  TECNICO_CURSO_TECNICO_CODIGO_INEP_URL = "#{BASE_API_URL}/tecnico/curso_tecnico/codigo_inep"
+  TECNICO_CURSO_TECNICO_ID_CURSO_URL = "#{BASE_API_URL}/tecnico/curso_tecnico/id_curso"
+  TECNICO_CURSO_TECNICO_ID_MODALIDADE_CURSO_URL = "#{BASE_API_URL}/tecnico/curso_tecnico/id_modalidade_curso_tecnico"
 end
