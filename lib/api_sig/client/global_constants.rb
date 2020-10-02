@@ -49,4 +49,8 @@ module Sig
   ENSINO_TURMA_ID_TURMA_URL = "#{BASE_API_URL}/ensino/turma/id_turma"
   ENSINO_TURMA_ID_CURSO_URL = "#{BASE_API_URL}/ensino/turma/id_curso"
   ENSINO_TURMA_ID_DISCIPLINA_URL = "#{BASE_API_URL}/ensino/turma/id_disciplina"
+
+  STRICTO_SENSU_DISCENTE_STRICTO_ID_DISCENTE_URL = "#{BASE_API_URL}/stricto_sensu/discente_stricto/id_discente"
+  STRICTO_SENSU_TIPO_CURSO_STRICTO_ID_TIPO_CURSO_STRICTO_URL = "#{BASE_API_URL}/stricto_sensu/tipo_curso_stricto/id_tipo_curso_stricto"
+  STRICTO_SENSU_TIPO_CURSO_STRICTO_GET_ALL_URL = "#{BASE_API_URL}/stricto_sensu/tipo_curso_stricto"
 end
