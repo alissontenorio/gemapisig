@@ -71,4 +71,30 @@ module Sig
   LATO_SENSU_COMPONENTE_CURSO_LATO_ID_COMPONENTE_CURRICULAR_LATO_URL = "#{BASE_API_URL}/lato_sensu/componente_curso_lato/id_componente_curricular"
   LATO_SENSU_COMPONENTE_CURSO_LATO_ID_CURSO_LATO_URL = "#{BASE_API_URL}/lato_sensu/componente_curso_lato/id_curso_lato"
   LATO_SENSU_COMPONENTE_CURSO_LATO_GET_ALL_URL = "#{BASE_API_URL}/lato_sensu/componente_curso_lato"
+
+  LATO_SENSU_CURSO_LATO_ID_TIPO_CURSO_LATO_URL = "#{BASE_API_URL}/lato_sensu/curso_lato/id_tipo_curso_lato"
+  LATO_SENSU_CURSO_LATO_ID_CURSO_URL = "#{BASE_API_URL}/lato_sensu/curso_lato/id_curso"
+  LATO_SENSU_CURSO_LATO_ID_MODALIDADE_EDUCACAO_URL = "#{BASE_API_URL}/lato_sensu/curso_lato/id_modalidade_educacao"
+  LATO_SENSU_CURSO_LATO_GET_ALL_URL = "#{BASE_API_URL}/lato_sensu/curso_lato"
+
+  LATO_SENSU_CURSO_SERVIDOR_ID_CURSO_URL = "#{BASE_API_URL}/lato_sensu/curso_servidor/id_curso"
+  LATO_SENSU_CURSO_SERVIDOR_ID_SERVIDOR_URL = "#{BASE_API_URL}/lato_sensu/curso_servidor/id_servidor"
+  LATO_SENSU_CURSO_SERVIDOR_ID_CURSO_SERVIDOR_URL = "#{BASE_API_URL}/lato_sensu/curso_servidor/id_curso_servidor"
+  LATO_SENSU_CURSO_SERVIDOR_ID_DOCENTE_EXTERNO_URL = "#{BASE_API_URL}/lato_sensu/curso_servidor/id_docente_externo"
+  LATO_SENSU_CURSO_SERVIDOR_GET_ALL_URL = "#{BASE_API_URL}/lato_sensu/curso_servidor"
+
+  LATO_SENSU_DISCENTE_LATO_ID_DISCENTE_URL = "#{BASE_API_URL}/lato_sensu/discente_lato/id_discente"
+  LATO_SENSU_DISCENTE_LATO_GET_ALL_URL = "#{BASE_API_URL}/lato_sensu/discente_lato"
+
+  LATO_SENSU_EQUIPE_LATO_ID_EQUIPE_LATO_URL = "#{BASE_API_URL}/lato_sensu/equipe_lato/id_equipe_lato"
+  LATO_SENSU_EQUIPE_LATO_ID_SERVIDOR_URL = "#{BASE_API_URL}/lato_sensu/equipe_lato/id_servidor"
+  LATO_SENSU_EQUIPE_LATO_ID_DOCENTE_EXTERNO_URL = "#{BASE_API_URL}/lato_sensu/equipe_lato/id_docente_externo"
+  LATO_SENSU_EQUIPE_LATO_ID_DISCIPLINA_URL = "#{BASE_API_URL}/lato_sensu/equipe_lato/id_disciplina"
+  LATO_SENSU_EQUIPE_LATO_GET_ALL_URL = "#{BASE_API_URL}/lato_sensu/equipe_lato"
+
+  LATO_SENSU_TIPO_CURSO_LATO_ID_TIPO_CURSO_LATO_URL = "#{BASE_API_URL}/lato_sensu/tipo_curso_lato/id_tipo_curso_lato"
+  LATO_SENSU_TIPO_CURSO_LATO_GET_ALL_URL = "#{BASE_API_URL}/lato_sensu/tipo_curso_lato"
+
+  LATO_SENSU_TURMA_ENTRADA_LATO_ID_TURMA_ENTRADA_URL = "#{BASE_API_URL}/lato_sensu/turma_entrada_lato/id_turma_entrada"
+  LATO_SENSU_TURMA_ENTRADA_LATO_GET_ALL_URL = "#{BASE_API_URL}/lato_sensu/turma_entrada_lato"
 end
