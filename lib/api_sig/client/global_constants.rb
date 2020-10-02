@@ -62,7 +62,8 @@ module Sig
   TECNICO_DISCENTE_TECNICO_ID_TURMA_ENTRADA_URL = "#{BASE_API_URL}/tecnico/discente_tecnico/id_turma_entrada"
   TECNICO_ESPECIALIZACAO_TURMA_ENTRADA_ID_ESPECIALIZACAO_TURMA_ENTRADA_URL = "#{BASE_API_URL}/tecnico/especializacao_turma_entrada/id_especializacao_turma_entrada"
   TECNICO_ESPECIALIZACAO_TURMA_ENTRADA_GET_ALL_URL = "#{BASE_API_URL}/tecnico/especializacao_turma_entrada"
-
   TECNICO_MODALIDADE_CURSO_TECNICO_ID_MODALIDADE_CURSO_URL = "#{BASE_API_URL}/tecnico/modalidade_curso_tecnico/id_modalidade_curso_tecnico"
   TECNICO_MODALIDADE_CURSO_TECNICO_GET_ALL_URL = "#{BASE_API_URL}/tecnico/modalidade_curso_tecnico"
+  TECNICO_TURMA_ENTRADA_TECNICO_ID_TURMA_ENTRADA_URL = "#{BASE_API_URL}/tecnico/turma_entrada_tecnico/id_turma_entrada"
+  TECNICO_TURMA_ENTRADA_TECNICO_GET_ALL_URL = "#{BASE_API_URL}/tecnico/turma_entrada_tecnico"
 end
