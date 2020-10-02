@@ -1,8 +1,5 @@
 module Sig
   class CursoLato < Base
-    # /apisig/curso_lato/id_tipo_curso_lato/:id_tipo_curso_lato
-    # /apisig/curso_lato/id_curso/:id_curso
-    # /apisig/curso_lato/id_modalidade_educacao/:id_modalidade_educacao
     def self.find_by_id_tipo_curso_lato(id_tipo_curso_lato)
       json_request("#{LATO_SENSU_CURSO_LATO_ID_TIPO_CURSO_LATO_URL}/#{id_tipo_curso_lato}")
     end
