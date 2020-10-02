@@ -39,6 +39,8 @@ module Sig
 
   ENSINO_SITUACAO_TURMA_ID_SITUACAO_TURMA_URL = "#{BASE_API_URL}/ensino/situacao_turma/id_situacao_turma"
   ENSINO_SITUACAO_TURMA_GET_ALL_URL = "#{BASE_API_URL}/ensino/situacao_turma"
+  ENSINO_TIPO_COMPONENTE_CURRICULAR_ID_TIPO_DISCIPLINA_URL = "#{BASE_API_URL}/ensino/tipo_componente_curricular/id_tipo_disciplina"
+  ENSINO_TIPO_COMPONENTE_CURRICULAR_GET_ALL_URL = "#{BASE_API_URL}/ensino/tipo_componente_curricular"
 
   ENSINO_TURMA_ID_TURMA_URL = "#{BASE_API_URL}/ensino/turma/id_turma"
   ENSINO_TURMA_ID_CURSO_URL = "#{BASE_API_URL}/ensino/turma/id_curso"
