@@ -57,4 +57,5 @@ module Sig
   TECNICO_CURSO_TECNICO_CODIGO_INEP_URL = "#{BASE_API_URL}/tecnico/curso_tecnico/codigo_inep"
   TECNICO_CURSO_TECNICO_ID_CURSO_URL = "#{BASE_API_URL}/tecnico/curso_tecnico/id_curso"
   TECNICO_CURSO_TECNICO_ID_MODALIDADE_CURSO_URL = "#{BASE_API_URL}/tecnico/curso_tecnico/id_modalidade_curso_tecnico"
+  TECNICO_CURSO_TECNICO_GET_ALL_URL = "#{BASE_API_URL}/tecnico/curso_tecnico"
 end
