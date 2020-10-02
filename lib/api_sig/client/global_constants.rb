@@ -84,7 +84,7 @@ module Sig
   LATO_SENSU_CURSO_SERVIDOR_GET_ALL_URL = "#{BASE_API_URL}/lato_sensu/curso_servidor"
 
   LATO_SENSU_DISCENTE_LATO_ID_DISCENTE_URL = "#{BASE_API_URL}/lato_sensu/discente_lato/id_discente"
-  LATO_SENSU_DISCENTE_LATO_GET_ALL_URL = "#{BASE_API_URL}/lato_sensu/discente_lato"
+  #LATO_SENSU_DISCENTE_LATO_GET_ALL_URL = "#{BASE_API_URL}/lato_sensu/discente_lato"
 
   LATO_SENSU_EQUIPE_LATO_ID_EQUIPE_LATO_URL = "#{BASE_API_URL}/lato_sensu/equipe_lato/id_equipe_lato"
   LATO_SENSU_EQUIPE_LATO_ID_SERVIDOR_URL = "#{BASE_API_URL}/lato_sensu/equipe_lato/id_servidor"
