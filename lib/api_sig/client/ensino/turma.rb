@@ -1,4 +1,4 @@
-module Sig
+module Sigaa
   module Ensino
     class Turma < Base
       def self.find_by_id_turma(id_turma)

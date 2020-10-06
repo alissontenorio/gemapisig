@@ -1,6 +1,6 @@
-require "api_sig/client/global_constants"
+require "api_sig/client/endpoints"
 
-module Sig
+module Sigaa
   class Base
     private_class_method :new
 

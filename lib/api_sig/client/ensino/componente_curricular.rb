@@ -1,16 +1,16 @@
-module Sig
+module Sigaa
   module Ensino
     class ComponenteCurricular < Base
       def self.find_by_id_disciplina(id_disciplina)
-        json_request("#{Ensino::COMPONENTE_CURRICULAR_ID_DISCIPLINA_URL}/#{id_disciplina}")
+        json_request("#{COMPONENTE_CURRICULAR_ID_DISCIPLINA_URL}/#{id_disciplina}")
       end  
 
       def self.find_by_codigo(codigo)
-        json_request("#{Ensino::COMPONENTE_CURRICULAR_CODIGO_URL}/#{codigo}")
+        json_request("#{COMPONENTE_CURRICULAR_CODIGO_URL}/#{codigo}")
       end  
 
       def self.find_by_id_tipo_componente(id_tipo_componente)
-        json_request("#{Ensino::COMPONENTE_CURRICULAR_ID_TIPO_COMPONENTE_URL}/#{id_tipo_componente}")
+        json_request("#{COMPONENTE_CURRICULAR_ID_TIPO_COMPONENTE_URL}/#{id_tipo_componente}")
       end  
     end
   end
