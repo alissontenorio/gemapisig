@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.summary       = "Um wrapper para as operações REST cliente da API SIG"
   spec.description   = "Um wrapper para as operações REST cliente da API SIG"
   spec.homepage      = "http://alisson.dev.br/"
-  spec.license       = ""
+  spec.license       = "AlissonCopyleft"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
   spec.metadata["allowed_push_host"] = "https://rubygems.org"

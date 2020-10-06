@@ -1,26 +1,33 @@
 # ApiSig::Client
 
-Essa gem faz uso da API do banco de dados do SIGDB
+Essa gem faz uso da API do banco de dados do SIGDB, a apisig.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Adicione essa linha no Gemfile da sua aplicação:
 
 ```ruby
 gem 'api_sig-client'
 ```
 
-And then execute:
+E então execute:
 
     $ bundle install
 
-Or install it yourself as:
+Ou instale você mesmo como:
 
     $ gem install api_sig-client
 
 ## Usage
 
-TODO: Write usage instructions here
+Após adicionar a gem, para utilizar a gem você pode invocar:
+
+Sig::ModalidadeEducacao.find_by_id_modalidade_educacao(id_modalidade_educacao)
+Sig::ModalidadeEducacao.all
+Sig::Pessoa.find_by_id_pessoa(id_pessoa)
+Sig::Pessoa.find_by_cpf(cpf)
+Sig::ComponenteCurricularDetalhes.find_by_id_componente_detalhes(id_componente_detalhes)
+Sig::ComponenteCurricularDetalhes.find_by_id_componente(id_componente)
 
 ## Development
 
@@ -30,9 +37,4 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/api_sig-client. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/api_sig-client/blob/master/CODE_OF_CONDUCT.md).
-
-
-## Code of Conduct
-
-Everyone interacting in the ApiSig::Client project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/api_sig-client/blob/master/CODE_OF_CONDUCT.md).
+Informações sobre bugs e pull requests são bem vingos. Entre em contato comigo (Alisson Tenório): alisson@nti.ufal.br
