@@ -8,7 +8,7 @@ module Sigaa
       begin
         JSON.parse(RestClient.get(url, {accept: :json}).body)
       rescue => ex
-        puts ex.response
+        puts "Erro json_request Not Found - " ex.response
       end
     end
   end
