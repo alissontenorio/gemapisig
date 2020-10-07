@@ -110,3 +110,4 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 ## Contributing
 
 Informações sobre bugs e pull requests são bem vingos. Entre em contato comigo (Alisson Tenório): alisson@nti.ufal.br
+
