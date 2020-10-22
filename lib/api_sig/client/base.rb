@@ -2,6 +2,15 @@ require "api_sig/client/endpoints"
 
 module Sigaa
   class Base
+
+    def self.is_api_available?
+      begin
+        RestClient.head(BASE_API_URL).code != 404
+      rescue => ex
+        false
+      end
+    end
+
     private_class_method :new
 
     def self.json_request(url)
