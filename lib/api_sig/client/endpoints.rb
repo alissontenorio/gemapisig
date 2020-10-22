@@ -6,6 +6,7 @@ module Sigaa
     PESSOA_CPF_URL = "#{BASE_API_URL}/comum/pessoa/cpf"
     MODALIDADE_EDUCACAO_ID_MODALIDADE_EDUCACAO_URL = "#{BASE_API_URL}/comum/modalidade_educacao/id_modalidade_educacao"
     MODALIDADE_EDUCACAO_GET_ALL_URL = "#{BASE_API_URL}/comum/modalidade_educacao"
+    UNIDADE_ID_UNIDADE_URL = "#{BASE_API_URL}/comum/unidade/id_unidade"
   end
 
   module Rh
